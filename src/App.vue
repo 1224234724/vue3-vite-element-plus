@@ -4,4 +4,8 @@
 <script setup>
 
 </script>
-<style scoped></style>
+<style scoped lang="scss">
+.test{
+  color:$xtxColor
+}
+</style>
