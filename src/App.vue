@@ -5,7 +5,4 @@
 
 </script>
 <style scoped lang="scss">
-.test{
-  color:$xtxColor
-}
 </style>

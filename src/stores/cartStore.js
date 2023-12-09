@@ -40,6 +40,7 @@ export const useCartStore = defineStore('cart', () => {
   // 删除购物车
   const delCart = async (skuId) => {
     if (isLogin.value) {
+      
       // 调用接口实现接口购物车中的删除功能
       await delCartAPI([skuId])
       updateNewList()
